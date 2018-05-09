@@ -1,14 +1,65 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Sistema</title>
-  <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<head>
+    <meta charset="utf-8">
+    <title>Sistema</title>
+    <base href="./">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--=================-->
+    <!--   StyleSheet    -->
+    <!--=================-->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Font-Awesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/Admin/css/style.css">
+    <link rel="stylesheet" href="assets/Admin/css/colors/default-dark.css" id="theme">
+    <!--=================-->
+    <!-- End StyleSheet  -->
+    <!--=================-->
+
 </head>
-<body>
-  <app-root></app-root>
+
+<body class="fix-header card-no-border fix-sidebar">
+
+    <!-- ============================================================== -->
+    <!-- Preloader - animacion de carga de pagina spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Sistema De Registro</p>
+        </div>
+    </div>
+    <app-root></app-root>
 </body>
+
+
+<!--=================-->
+<!--     Scripts     -->
+<!--=================-->
+<!-- Se necesita activar cuando se compila en Electron -->
+<!---<script>
+  window.jQuery = window.$ = require('./assets/Jquery/jquery.min.js');
+</script>-->
+<script src="assets/Jquery/jquery.min.js"></script>
+<script src="assets/Popper/popper.min.js"></script>
+<script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+<!-- slimscrollbar scrollbar JavaScript -->
+<script src="assets/Admin/js/perfect-scrollbar.jquery.min.js"></script>
+<!--Wave Effects -->
+<script src="assets/Admin/js/waves.js"></script>
+<!--Menu sidebar -->
+<script src="assets/Admin/js/sidebarmenu.js"></script>
+<!--stickey kit -->
+<script src="assets/Admin/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+<script src="assets/Admin/plugins/sparkline/jquery.sparkline.min.js"></script>
+<!--Custom JavaScript -->
+<script src="assets/Admin/js/custom.min.js"></script>
+<!--=================-->
+<!--  End Scripts    -->
+<!--=================-->
+
 </html>

@@ -1,0 +1,36 @@
+.footer {
+    position: absolute;
+    background-color: #002050;
+    bottom: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.border-top {
+    border-top: 3px solid #ff1b1b !important;
+}
+
+
+/************************************************************************************/
+
+
+/*                              Diseño del footer                                   //
+/************************************************************************************/
+
+#miFooterr {
+    color: white;
+    background-color: #002050;
+}
+
+#textoFooterr {
+    color: #AFAFAF;
+    font-family: fantasy;
+    font-size: 11px;
+    text-align: center;
+}
+
+#imgFooter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
